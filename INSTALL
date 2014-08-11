@@ -1,0 +1,21 @@
+DTk - client/server Tcl/Tk binding for the D programming language
+
+DTk requirements:
+  Tcl/Tk >= 8.4
+  DMD = 2.0.16
+  
+examples/tileqt requirements:
+  Tile[1] >= 0.7.8, TileQt[2] >= 0.4
+
+config.in contains library path. you'll need to change it
+
+example compilation routines:
+  make
+  cd examples/ltktest
+  make
+  make test
+
+last command runs both server.tcl and example client
+
+[1] - tktable.sf.net
+[2] - http://www.ellogon.org/petasis/index.php?option=com_content&task=view&id=24&Itemid=40

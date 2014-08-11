@@ -1,0 +1,3 @@
+LIB = -L-L./dtk -L-ldtk
+INC = -I/.
+DMD = /opt/dmd/bin/dmd
